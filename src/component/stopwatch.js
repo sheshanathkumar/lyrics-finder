@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 
 export default function Stopwatch() {
 
-    const [time, setTime] = useState(179)
+    const [time, setTime] = useState(119)
     const [mins, setMins] = useState(0);
     const [sec, setSec] = useState(0);
 
