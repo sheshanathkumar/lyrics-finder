@@ -1,12 +1,11 @@
 .puzzle {
     gap: 100px;
     margin-bottom: 5px;
-    height: 65vh;
 }
 
 .picboard {
-    height: 500px;
-    width: 500px;
+    height: min-content;
+    width: fit-content;
     justify-content: center;
     align-items: center;
 }
@@ -22,6 +21,15 @@
     width: 100px;
     padding: 0;
     margin: 0;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+img {
+    height: 100px;
+    width: 100px;
 }
 
 .image {
