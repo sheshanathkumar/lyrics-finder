@@ -1,0 +1,69 @@
+.pic-cell {
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.picboard {
+    height: min-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.timer {
+    height: 50px;
+    width: 240px;
+    border: 1px solid red ;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hours{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minutes{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seconds{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    height: 200px;
+}
+
+.watch {
+    width: 10%;
+}
+
+.images {
+    height: 200px;
+    width: 200px;
+}
