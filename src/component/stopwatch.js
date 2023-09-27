@@ -37,6 +37,7 @@ export default function Stopwatch() {
 
     return (
         <>
+        <div className='watch'>
             <h1> {mins} : {sec} </h1>
             <div className='d-flex' style={{ gap: '5px' }} >
                 <button className="btn btn-danger"
@@ -44,6 +45,7 @@ export default function Stopwatch() {
                         clearInterval(id.current);
                     }}
                 > Pause </button>
+            </div>
             </div>
         </>
 

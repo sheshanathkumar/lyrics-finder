@@ -1,24 +1,27 @@
+.puzzle {
+    gap: 100px;
+    margin-bottom: 5px;
+    height: 65vh;
+}
+
+.picboard {
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.result img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
 .pic-cell {
     height: 100px;
     width: 100px;
     padding: 0;
     margin: 0;
-}
-
-.picboard {
-    height: min-content;
-    width: fit-content;
-    justify-content: center;
-    align-items: center;
-}
-
-img {
-    height: 100px;
-    width: 100px;
-    image-rendering: auto;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-    image-rendering: -webkit-optimize-contrast;
 }
 
 .image {
@@ -60,10 +63,7 @@ img {
 }
 
 .watch {
-    width: 10%;
-}
+    width: 100%;
+    align-items: end;
 
-.images {
-    height: 200px;
-    width: 200px;
 }
